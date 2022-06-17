@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.active{
+    background-color: rgb(153, 51, 51);
+}
+nav ul li a:hover {
+    background-color: rgb(153, 51, 51);
+}
+nav ul li{
+    padding: 5px;
+}
+
+#navbarNav{
+
+    justify-content: flex-end !important;
+}
+.main1{
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.main1 .main1-content{
+    padding-top: 10% !important;
+}
+.main3 .col{
+    margin: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 30px;
+}
+
+.main3 .col:hover{
+    background-color: red;
+    color: white;
+    transition: .5s;
+    
+}
+.main4{
+    background-color: rgb(230, 230, 230);
+    height: 10vh;
+}
+.main5 .col{
+    margin: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 30px;
+}
+
+.main5 .col:hover{
+    background-color: red;
+    color: white;
+    transition: .5s;
+    
+}
+.main5 .feature-icon i{
+    font-size: 40px;
+}
+.main6{
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.box.hide{
+    display: none;
+}
+.main7 img{
+    margin: 10px;
+}
+.asd{
+    background-color: red;
+    color: white;
+}
+.card-title1{
+    background-color: rgb(238, 237, 237);
+}
+.box {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 80%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+
+  
+  .box:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: #f2f2f2;
+    color: #000;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+.main9 img{
+    border-radius: 50%;
+}
+.main9 .col{
+    margin: 10px;
+    padding: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.main10 .col {
+    margin: 10px;
+    padding: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.main10 .feature-icon i{
+    font-size: 40px;
+}
